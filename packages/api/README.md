@@ -2,11 +2,11 @@
 ![license](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat-square)
 [![npm](https://img.shields.io/npm/v/@subsocial/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@subsocial/api)
 
-# Subsocial API by [DappForce](https://github.com/dappforce)
+# Subsocial API by [DappForce](https://github.com/dappforce) ![DappForce Image](https://pbs.twimg.com/profile_images/1341927992700923904/Y5_scBB6_400x400.jpg)
 
 JavaScript API wrappers for Substrate and IPFS specific to Subsocial blockchain.
 
-## Install
+## Install :computer:
 
 Using npm:
 
@@ -50,6 +50,6 @@ const space = await api.findSpace(spaceId);
 console.log('Found space:', { ...space });
 ```
 
-## License
+## License :page_facing_up:
 
-Subsocial is [GPL 3.0](./LICENSE) licensed. :page_facing_up:
+Subsocial is [GPL 3.0](./LICENSE) licensed.
