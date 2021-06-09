@@ -2,7 +2,7 @@
 ![license](https://img.shields.io/badge/License-GPL%203.0-blue?style=flat-square)
 [![npm](https://img.shields.io/npm/v/@subsocial/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@subsocial/api)
 
-# Subsocial API by [DappForce](https://github.com/dappforce) <img src="https://pbs.twimg.com/profile_images/1341927992700923904/Y5_scBB6_400x400.jpg" alt="DappForce" width="25"/>
+# Subsocial API by [DappForce](https://github.com/dappforce) <img src="https://pbs.twimg.com/profile_images/1341927992700923904/Y5_scBB6_400x400.jpg" alt="DappForce" width="45"/>
 
 JavaScript API wrappers for Substrate and IPFS specific to Subsocial blockchain.
 
