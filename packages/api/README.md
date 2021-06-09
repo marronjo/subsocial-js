@@ -1,5 +1,5 @@
 [![subsocialjs](https://img.shields.io/badge/subsocial-js-pink?style=flat-square)](https://subsocial.network/)
-![license](https://img.shields.io/badge/License-GPL%3.0-blue?logo=gpl&style=flat-square)
+![license](https://img.shields.io/badge/License-GPL%300.0-blue?style=flat-square)
 [![npm](https://img.shields.io/npm/v/@subsocial/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@subsocial/api)
 
 # Subsocial API by [DappForce](https://github.com/dappforce)
