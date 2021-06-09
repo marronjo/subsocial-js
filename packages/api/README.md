@@ -19,9 +19,9 @@ yarn add @subsocial/api
 NOTE:
 
 To run this API you need to have [Substrate](https://substrate.dev/en/) node, [IPFS](https://ipfs.io/) node
-and Offchain app running locally, suggested URLs are below
+and off-chain app running locally, suggested URLs are below
 
-Set-up:
+Set-up: :hammer:
 
 ```javascript
 import { SubSocialApi } from "@subsocial/api";
