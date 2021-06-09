@@ -1,8 +1,12 @@
+[![subsocialjs](https://img.shields.io/badge/subsocial-js-pink?style=flat-square)](https://subsocial.network/)
+![license](https://img.shields.io/badge/License-GPL%3.0-blue?logo=gpl&style=flat-square)
+[![npm](https://img.shields.io/npm/v/@subsocial/api?logo=npm&style=flat-square)](https://www.npmjs.com/package/@subsocial/api)
+
 # Subsocial API by [DappForce](https://github.com/dappforce)
 
 JavaScript API wrappers for Substrate and IPFS specific to Subsocial blockchain.
 
-## Install and Import
+## Install
 
 Using npm:
 
@@ -21,7 +25,7 @@ NOTE:
 To run this API you need to have [Substrate](https://substrate.dev/en/) node, [IPFS](https://ipfs.io/) node
 and off-chain app running locally, suggested URLs are below
 
-Set-up: :hammer:
+## Getting Started :hammer:
 
 ```javascript
 import { SubSocialApi } from "@subsocial/api";
@@ -48,4 +52,4 @@ console.log('Found space:', { ...space });
 
 ## License
 
-Subsocial is [GPL 3.0](./LICENSE) licensed.
+Subsocial is [GPL 3.0](./LICENSE) licensed. :page_facing_up:
