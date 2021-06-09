@@ -2,7 +2,7 @@
 
 JavaScript API wrappers for Substrate and IPFS specific to Subsocial blockchain.
 
-## Install
+## Install and Import
 
 Using npm:
 
@@ -14,6 +14,36 @@ Using yarn:
 
 ```bash
 yarn add @subsocial/api
+```
+
+NOTE:
+
+To run this API you need to have Substrate node, IPFS node
+and Offchain app running locally, suggested URLs are below
+
+Set-up:
+
+```javascript
+import { SubSocialApi } from "@subsocial/api";
+import { getApi } from //SUBSTRATE CONNECT?
+import BN from 'bn.js';
+
+//local URLs
+const ipfsNodeUrl = 'http://localhost:8080'
+const offchainUrl = 'http://localhost:3001'
+
+//connect to substrate
+const substrateApi = await getApi();
+
+//make connection to SubSocial
+const api = new SubsocialApi({ substrateApi, ipfsNodeUrl, offchainUrl });
+
+//generate spaceID and find specified space
+const spaceId = new BN(1)
+const space = await api.findSpace(spaceId);
+
+//prints space information to console
+console.log('Found space:', { ...space });
 ```
 
 ## License
