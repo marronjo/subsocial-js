@@ -24,7 +24,7 @@ NOTE:
 
 To run this API you need to have Substrate node, IPFS node
 and off-chain app running locally, suggested URLs are below.
-These can be set-up from the [Subsocial Starter repo](https://github.com/dappforce/subsocial-js) 
+These can be set-up from the [Subsocial Starter repo](https://github.com/dappforce/subsocial-starter) 
 
 ## Getting Started :hammer:
 
