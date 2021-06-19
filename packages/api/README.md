@@ -22,8 +22,9 @@ yarn add @subsocial/api
 
 NOTE:
 
-To run this API you need to have [Substrate](https://substrate.dev/en/) node, [IPFS](https://ipfs.io/) node
-and off-chain app running locally, suggested URLs are below
+To run this API you need to have Substrate node, IPFS node
+and off-chain app running locally, suggested URLs are below.
+These can be set-up from the [Subsocial Starter repo](https://github.com/dappforce/subsocial-js) 
 
 ## Getting Started :hammer:
 
